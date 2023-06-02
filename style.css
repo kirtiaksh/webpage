@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+padding: 0;
+box-sizing:  border box;
+}
+.navbar{
+    background-color: rgb(8, 8, 8);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    height: 80px;
+}
+
+
+.navbar a{
+   padding: 20px;
+   text-decoration: none;
+   color: whitesmoke;
+   justify-content: space-between;
+
+}
+.logo{
+     flex: left;
+     text-align: center;
+     margin-left: 1%;
+     color: whitesmoke;
+}
+
+body{
+   background-color: whitesmoke;
+}
+.container{
+    display: flex;
+
+  
+    
+}
+
+.sidebar{
+    height: 100vh;
+    width: 10%;
+   
+    background-color: rgb(220, 230, 167);
+    padding: 30px 0px;
+
+}
+.content1{
+    background-color: rgb(220, 230, 167);
+    margin-top: 5%;
+   margin-bottom:5% ;
+   margin-left: 5%;
+   margin-right: 5%;
+   width:40%;
+}
+
+li{
+    list-style: none;
+    padding: 15px;
+}
+li:hover{
+    background-color: white;
+}
+
+a{
+    color: black;
+}
+.fa-brands{
+    color: white;
+    font-size: 20px;
+    transition: all .2%;
+}
+.fa-regular{
+    font-size: 20px;
+    width: 20%;
+}
+
+.icons{
+    position:absolute;
+    left: 17%;
+    right: 50%;
+    transform: translatex(-50%);
+    margin-bottom: 20px;
+}
+.fa-brands:hover{
+    transform: translatey(-10px);
+}
+
+.image{
+    margin-top: 40px;
+}
+.gif{
+    margin-right: 20px;
+    margin-left: 80px;
+}
